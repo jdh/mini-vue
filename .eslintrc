@@ -1,0 +1,16 @@
+{
+  "root": true,
+  "parser": "babel-eslint",
+  "plugins": [
+    "flowtype"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue-libs/recommended",
+    "plugin:flowtype/recommended"
+  ],
+  "globals": {
+    "__WEEX__": true,
+    "WXEnvironment": true
+  }
+}
